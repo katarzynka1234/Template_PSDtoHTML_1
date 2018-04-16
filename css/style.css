@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+
+body {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 1142px;
+	margin: 0 auto;
+	
+}
+
+.main {
+	height: 100vh;
+	background-image: url(images/header_image.png);
+	background-position: center;
+	background-size: cover;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.logo {
+	font-family: Lato, sans-serif;
+	font-size: 19px;
+	color: white;
+	font-weight: 900;
+	margin-top: 20px;
+	letter-spacing: 0.4px;	
+}
+ .logo span {
+	 color: #ed145b;
+ }
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: flex-end;
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+nav>ul>li  {
+	padding: 0 10px;
+	padding-bottom: 0;
+	
+}
+
+nav>ul>li>a {
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.4px;
+	text-decoration: none;
+	color: #fff;
+}
+
+nav>ul>li>a:hover {
+	color: #ed145b;
+}
+
+.jumbotron{
+	max-width: 951px;
+	text-align: center;		
+	margin: 0 auto;
+	margin-top: 15vh;
+} 
+
+.jumbotron h1 {
+	font-family: Lato, sans-serif;
+	font-size: 46px;
+	font-style: light;
+	font-weight: 100;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.jumbotron h1 span {
+	font-weight: bold;
+}
+
+.jumbotron p {
+	font-family: Lato, sans-serif;
+	font-size: 18px;
+	font-style: light;
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: 0.55px;
+	line-height: 38px;
+}
+
+.jumbotron button {
+	width: 200px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #ed145b;
+	color: #fff;
+	font-weight: 700;
+	font-size: 15px;
+	font-family: Lato, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.38px;
+	border: none;
+	margin-top: 40px;
+}
+
+.jumbotron button:hover {
+	cursor: pointer;
+}
