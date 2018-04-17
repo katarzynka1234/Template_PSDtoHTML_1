@@ -65,6 +65,7 @@ nav>ul>li>a:hover {
 	color: #ed145b;
 }
 
+/* --- jumbotron --- */
 .jumbotron{
 	max-width: 951px;
 	text-align: center;		
@@ -121,8 +122,6 @@ nav>ul>li>a:hover {
 .about {
 	background-color: #f4f4f4;
 	padding-top: 10vh;
-	/*height: 646px; */
-	/*position: relative;*/
 }
 
 .about .box1 {
@@ -196,9 +195,70 @@ nav>ul>li>a:hover {
 .about .mcbook-pic {
 	position: absolute;
 	z-index: 1;
-	bottom: -100px;
+	bottom: -90px;
 	right: -300px;	
 }
+
+/* --- about section finished ---*/
+
+/* --- services section---*/
+
+.services {
+	padding-top: 150px;
+
+}
+.services .services-text {
+	text-align: center;
+	width: 681px;
+	margin: 0 auto;	
+}
+
+.services .services-text h1 {
+	color: #5a5a5a;
+	font-family: "Lato", sans-serif;
+	font-style: italic;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 52px;
+	margin-bottom: 25px;
+}
+
+.services .services-text p {
+	color: #5a5a5a;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.services .icons-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 100px 0;
+}
+
+.services .icons-box > [class*="icon-"] {	
+	text-align: center;
+}
+
+.services .icons-box > [class*="icon-"] button {
+	width: 131px;
+	height: 131px;
+	background: none;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+}
+
+.services .icons-box > [class*="icon-"] h2 {
+	color: #ed145b;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
 
 
 
