@@ -1,267 +1,315 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300i,300,400,700,900');
-
-
+@import url("https://fonts.googleapis.com/css?family=Lato:300i,300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
 body {
-	padding: 0;
-	margin: 0 auto;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .container {
-	max-width: 1142px;
-	margin: 0 auto;
-	
+  max-width: 1142px;
+  margin: 0 auto;
 }
 
 .main {
-	height: 100vh;
-	background-image: url(images/header_image.png);
-	background-position: center;
-	background-size: cover;
+  height: 100vh;
+  background-image: url(images/header_image.png);
+  background-position: center;
+  background-size: cover;
 }
 
 nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo {
-	font-family: Lato, sans-serif;
-	font-size: 19px;
-	color: white;
-	font-weight: 900;
-	margin-top: 20px;
-	letter-spacing: 0.4px;	
+  font-family: Lato, sans-serif;
+  font-size: 19px;
+  color: white;
+  font-weight: 900;
+  margin-top: 20px;
+  letter-spacing: 0.4px;
 }
- .logo span {
-	 color: #ed145b;
- }
+
+.logo span {
+  color: #ed145b;
+}
 
 nav ul {
-	display: flex;
-	flex-direction: row;
-	list-style: none;
-	justify-content: flex-end;
-	margin-top: 40px;
-	margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
-nav>ul>li  {
-	padding: 0 10px;
-	padding-bottom: 0;
-	
+nav > ul > li {
+  padding: 0 10px;
+  padding-bottom: 0;
 }
 
-nav>ul>li>a {
-	font-family: Lato, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	letter-spacing: 0.4px;
-	text-decoration: none;
-	color: #fff;
+nav > ul > li > a {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  color: #fff;
 }
 
-nav>ul>li>a:hover {
-	color: #ed145b;
+nav > ul > li > a:hover {
+  color: #ed145b;
 }
 
 /* --- jumbotron --- */
-.jumbotron{
-	max-width: 951px;
-	text-align: center;		
-	margin: 0 auto;
-	margin-top: 15vh;
-} 
+.jumbotron {
+  max-width: 951px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15vh;
+}
 
 .jumbotron h1 {
-	font-family: Lato, sans-serif;
-	font-size: 46px;
-	font-style: light;
-	font-weight: 100;
-	color: #fff;
-	text-transform: uppercase;
+  font-family: Lato, sans-serif;
+  font-size: 46px;
+  font-style: light;
+  font-weight: 100;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .jumbotron h1 span {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .jumbotron p {
-	font-family: Lato, sans-serif;
-	font-size: 18px;
-	font-style: light;
-	font-weight: 300;
-	color: #fff;
-	letter-spacing: 0.55px;
-	line-height: 38px;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-style: light;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 0.55px;
+  line-height: 38px;
 }
 
 .jumbotron button {
-	width: 200px;
-	height: 50px;
-	border-radius: 25px;
-	background-color: #ed145b;
-	color: #fff;
-	font-weight: 700;
-	font-size: 15px;
-	font-family: Lato, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 0.38px;
-	border: none;
-	margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ed145b;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.38px;
+  border: none;
+  margin-top: 40px;
 }
 
 .jumbotron button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 /* ---header finish---- */
-
 /*--- about section ---*/
-
 .about {
-	background-color: #f4f4f4;
-	padding-top: 10vh;
+  background-color: #f4f4f4;
+  padding-top: 10vh;
 }
 
 .about .box1 {
-	display: flex;
-	position: relative;	
-	padding-bottom: 200px;	
+  display: flex;
+  position: relative;
+  padding-bottom: 200px;
 }
 
 .about .box1 div {
-	flex: 0.5;		
+  flex: 0.5;
 }
 
-
 .about .box1 div h1 {
-	color: #5a5a5a;
-	font-family: "Lato", sans-serif;
-	font-size: 38px;
-	font-weight: 400;
-	line-height: 52px;
-	font-style: italic;
-	margin-bottom: 10px;	
+  color: #5a5a5a;
+  font-family: "Lato", sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 52px;
+  font-style: italic;
+  margin-bottom: 10px;
 }
 
 .about .box1 div .text-about {
-	width: 466px;
-	height: 165px;
-	color: #5a5a5a;
-	font-family: Lato;
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 25px;
-	overflow: hidden;
-	letter-spacing: 0.35px;
+  width: 466px;
+  height: 165px;
+  color: #5a5a5a;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  overflow: hidden;
+  letter-spacing: 0.35px;
 }
 
 .about .box1 .button-play {
-	display: flex;
-	flex-direction: row;	
-	margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
 }
 
 .about .box1 .button-play p {
-	margin: 0;
-	text-transform: uppercase;	
-	color: #ed145b;
-	font-family: Lato;
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 30px;
-	margin-right: 10px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ed145b;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-right: 10px;
 }
 
 .about .box1 .button-play button {
-	width: 27px;
-	height: 27px;
-	border: 1px solid #ed145b;	
-	border-radius: 50%;
-	background: none;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #ed145b;
+  border-radius: 50%;
+  background: none;
 }
 
 .about .box1 .button-play button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .about .box1 .button-play button i {
-	color: #ed145b;
-	padding: 2px;
+  color: #ed145b;
+  padding: 2px;
 }
 
-
 .about .mcbook-pic {
-	position: absolute;
-	z-index: 1;
-	bottom: -90px;
-	right: -300px;	
+  position: absolute;
+  z-index: 1;
+  bottom: -90px;
+  right: -300px;
 }
 
 /* --- about section finished ---*/
-
 /* --- services section---*/
-
 .services {
-	padding-top: 150px;
-
+  padding-top: 150px;
 }
+
 .services .services-text {
-	text-align: center;
-	width: 681px;
-	margin: 0 auto;	
+  text-align: center;
+  width: 681px;
+  margin: 0 auto;
 }
 
 .services .services-text h1 {
-	color: #5a5a5a;
-	font-family: "Lato", sans-serif;
-	font-style: italic;
-	font-size: 38px;
-	font-weight: 400;
-	line-height: 52px;
-	margin-bottom: 25px;
+  color: #5a5a5a;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 52px;
+  margin-bottom: 25px;
 }
 
 .services .services-text p {
-	color: #5a5a5a;
-	font-family: Lato;
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 30px;
+  color: #5a5a5a;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
 }
 
 .services .icons-box {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	margin: 100px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px 0;
 }
 
-.services .icons-box > [class*="icon-"] {	
-	text-align: center;
+.services .icons-box > [class*="icon-"] {
+  text-align: center;
 }
 
 .services .icons-box > [class*="icon-"] button {
-	width: 131px;
-	height: 131px;
-	background: none;
-	border: 1px solid rgba(0, 0, 0, 0.3);
-	border-radius: 50%;
+  width: 131px;
+  height: 131px;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
 }
 
 .services .icons-box > [class*="icon-"] h2 {
-	color: #ed145b;
-	font-family: Lato;
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 30px;
-	text-transform: uppercase;
+  color: #ed145b;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
 }
 
+/*---services section finished ---*/
+/*---quotes section ---*/
+.quotes {
+  height: 500px;
+  background-image: url(images/background_quote.png);
+}
 
+.quote-box {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
 
+button.btn-left,
+button.btn-right {
+  background: none;
+  border: none;
+  outline: none;
+}
 
+.fa {
+  font-size: 40px;
+  color: #5a5a5a;
+  font-weight: bold;
+}
 
+.quote-box .quote-text {
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: auto;
+}
 
+.quote-text p {
+  padding: 20px 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: lighter;
+  line-height: 40px;
+}
 
+.quote-text p span {
+  font-family: serif;
+  font-size: 138px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ed145b;
+}
+
+.quote-text p span:first-child {
+  transform: rotateX(180deg);
+  display: block;
+  margin-bottom: -60px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
