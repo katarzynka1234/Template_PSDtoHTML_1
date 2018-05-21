@@ -144,4 +144,9 @@ body {
 
 /* Our services section */
 
-
+.services {
+    padding-top: 150px;
+    .services-text h1 {
+        @include text-heading;        
+    }
+}
