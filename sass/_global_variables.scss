@@ -12,3 +12,59 @@ $bg-dark-gray: #595959;
 $bg-footer: #2b2b2b;
 
 
+@mixin flexbox($display, $flex-direction, $justify-content) {
+    display: $display;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+}
+
+
+@mixin btn($bg-color, $font-color){
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: $main-font, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+    border: none;    
+    background-color: $bg-color;
+    color: $font-color; 
+    &:hover {
+        cursor: pointer;
+    }
+    &:focus,
+    &:active {
+        outline: none;
+    }
+
+}
+
+@mixin text-heading {
+    color: $font-gray;
+	font-family: $main-font, sans-serif;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 52px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+@mixin text-pharagraph {
+    color: $font-gray;
+	font-family: $main-font, sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 0.35px;
+}
+
+@mixin btn-text($font-color){
+    color: $font-color;
+    font-family: Lato;
+	font-size: 15px;
+	font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}

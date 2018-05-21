@@ -9,9 +9,11 @@ body {
 .container {
   max-width: 1142px;
   margin: 0 auto;
-  padding: 0;
+  padding-left: 17px;
+  padding-right: 17px;
 }
 
+/* navigation */
 .main {
   height: 100vh;
   background-image: url(../images/header_main/header_image.png);
@@ -61,6 +63,135 @@ body {
 
 .main nav > ul > li > a:hover {
   color: #ed135b;
+}
+
+/* nav finished */
+/* jumbotron */
+.jumbotron {
+  max-width: 951px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15vh;
+}
+
+.jumbotron h1 {
+  font-family: Lato, sans-serif;
+  font-size: 46px;
+  font-style: light;
+  font-weight: 100;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.jumbotron h1 span {
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-style: light;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 0.55px;
+  line-height: 38px;
+}
+
+.jumbotron button {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.38px;
+  border: none;
+  background-color: #ed135b;
+  color: #fff;
+}
+
+.jumbotron button:hover {
+  cursor: pointer;
+}
+
+.jumbotron button:focus, .jumbotron button:active {
+  outline: none;
+}
+
+/* jumbotron finished */
+/* about section*/
+.about {
+  background-color: #f3f3f3;
+  padding-top: 10vh;
+}
+
+.about .box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.about .box1 .box-text {
+  flex: 0.5;
+}
+
+.about .box1 .box-text h1 {
+  color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 52px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.about .box1 .box-text p {
+  color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.35px;
+}
+
+.about .box1 .box-text .button-play {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.about .box1 .box-text .button-play p {
+  color: #ed135b;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.about .box1 .box-text .button-play button {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #ed135b;
+  border-radius: 50%;
+  background: none;
+  margin: 15px 10px;
+  color: #ed135b;
+}
+
+.about .box1 .box-text .button-play button:hover {
+  cursor: pointer;
+}
+
+.about .mcbook-pic {
+  position: absolute;
+  bottom: -90px;
+  right: -500px;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
