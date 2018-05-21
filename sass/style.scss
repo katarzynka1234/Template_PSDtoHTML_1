@@ -142,11 +142,38 @@ body {
 
 /* About section finished */
 
-/* Our services section */
-
+/* services section */
 .services {
     padding-top: 150px;
-    .services-text h1 {
-        @include text-heading;        
+    text-align: center;        
+    .services-text{
+        max-width: 680px;
+        margin: 0 auto;
+        h1 {
+            @include text-heading;        
+        }
+        p {
+            @include text-pharagraph;
+        }
     }
+    .icons-box {
+        @include flexbox(flex, row, space-around);
+        margin: 100px 0;
+        > [class*="icon-"] {
+            text-align: center;
+            button {
+                width: 131px;
+                height: 131px;
+                background: none;
+                border: 1px solid rgba(0, 0, 0, 0.3);
+                border-radius: 50%;
+            }
+            h2 {
+                @include btn-text($pink);
+            }
+        }
+    }
+
 }
+/* services section finished */
+
