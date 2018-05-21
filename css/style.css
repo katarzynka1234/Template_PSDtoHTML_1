@@ -253,4 +253,8 @@ body {
   text-transform: uppercase;
 }
 
+.carousel {
+  height: 500px;
+}
+ 
 /*# sourceMappingURL=style.css.map */
