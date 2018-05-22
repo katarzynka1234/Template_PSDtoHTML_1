@@ -79,13 +79,7 @@ body {
         }
     }
     p {
-        font-family: $main-font, sans-serif;
-        font-size: 18px;
-        font-style: light;
-        font-weight: 300;
-        color: $white;
-        letter-spacing: 0.55px;
-        line-height: 38px;
+        @include text-pharagraph-bigger;
     }
     button {
         @include btn($pink, $white);
@@ -176,4 +170,36 @@ body {
 
 }
 /* services section finished */
+
+/* quote section */
+
+.quotes {
+    .carousel {        
+        height: 501px; 
+        .carousel-inner>.item {    
+            >img{
+                 max-width: none;         
+            } 
+            .carousel-caption {
+                bottom: 100px;
+                p {
+                    @include text-pharagraph-bigger;
+                }
+                span {
+                    font-family: serif;
+                    font-size: 138px;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                    color: #ed145b;
+                    &:first-child {
+                        transform: rotateX(180deg);
+                        display: block;
+                        margin-bottom: -60px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }      
+    }
+}
 
