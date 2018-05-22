@@ -261,4 +261,19 @@ body {
         }
     }
 }
+/* prizes section finished */
 
+/* Additional info section */
+
+.additional-info {
+    .box-icons {
+        @include flexbox(flex, row, center);
+        flex-wrap: wrap;
+        >.icon {
+            flex: 1;
+        }
+        >.text {
+            flex: 4;
+        }
+    }
+}
