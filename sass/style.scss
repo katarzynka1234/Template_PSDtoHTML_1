@@ -207,13 +207,58 @@ body {
 /* prizes section */
 
 .prizes {
-    padding-top: 40px;
-    h1 {
-        @include text-heading;
+    padding-top: 150px;
+    text-align: center;
+    background-color: $bg-light-gray;
+    .prizes-text {
+        max-width: 680px;
+        margin: 0 auto;
+        h1 {
+            @include text-heading;
+        }
+        p {
+            @include text-pharagraph;
+        }
     }
-    p {
-        @include text-pharagraph;
+    .prizes-box {
+        @include flexbox(flex, row, space-between);
+        padding-top: 80px;
+        padding-bottom: 80px;
+        >[class*="box-"] {
+            width: 262px;
+            height: 466px;
+            background-color: $white;
+            .single-prize {
+                margin: 0;
+                height: 150px;
+                background-color: $bg-dark-gray;
+                h2 {
+                    @include btn-text($white);
+                    margin-top: 0;
+                    padding-top: 30px;
+                    span {
+                        font-size: 46px;
+                    }
+                    
+                }
+            }
+            .version {
+                @include btn($bg-light-gray, $bg-dark-gray);
+                margin-top: -25px;
+            }
+            >p {
+                @include text-pharagraph;
+                line-height: 0.8;
+                font-weight: 400;
+            }
+            .buy-now {
+                @include btn($pink, $white);
+                margin-top: 20px;
+            }
+            &:hover .single-prize {
+                background-color: $pink;
+            }
+        }
     }
-    
 }
 

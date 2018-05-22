@@ -155,6 +155,7 @@ body {
   font-weight: 300;
   line-height: 25px;
   letter-spacing: 0.35px;
+  padding-top: 20px;
 }
 
 .about .box1 .box-text .button-play {
@@ -223,6 +224,7 @@ body {
   font-weight: 300;
   line-height: 25px;
   letter-spacing: 0.35px;
+  padding-top: 20px;
 }
 
 .services .icons-box {
@@ -290,6 +292,136 @@ body {
   display: block;
   margin-bottom: -60px;
   margin-top: 20px;
+}
+
+/* quotes section finished*/
+/* prizes section */
+.prizes {
+  padding-top: 150px;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+.prizes .prizes-text {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.prizes .prizes-text h1 {
+  color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 52px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.prizes .prizes-text p {
+  color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.35px;
+  padding-top: 20px;
+}
+
+.prizes .prizes-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.prizes .prizes-box > [class*="box-"] {
+  width: 262px;
+  height: 466px;
+  background-color: #fff;
+}
+
+.prizes .prizes-box > [class*="box-"] .single-prize {
+  margin: 0;
+  height: 150px;
+  background-color: #595959;
+}
+
+.prizes .prizes-box > [class*="box-"] .single-prize h2 {
+  color: #fff;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.prizes .prizes-box > [class*="box-"] .single-prize h2 span {
+  font-size: 46px;
+}
+
+.prizes .prizes-box > [class*="box-"] .version {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.38px;
+  border: none;
+  background-color: #f3f3f3;
+  color: #595959;
+  margin-top: -25px;
+}
+
+.prizes .prizes-box > [class*="box-"] .version:hover {
+  cursor: pointer;
+}
+
+.prizes .prizes-box > [class*="box-"] .version:focus, .prizes .prizes-box > [class*="box-"] .version:active {
+  outline: none;
+}
+
+.prizes .prizes-box > [class*="box-"] > p {
+  color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.35px;
+  padding-top: 20px;
+  line-height: 0.8;
+  font-weight: 400;
+}
+
+.prizes .prizes-box > [class*="box-"] .buy-now {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.38px;
+  border: none;
+  background-color: #ed135b;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.prizes .prizes-box > [class*="box-"] .buy-now:hover {
+  cursor: pointer;
+}
+
+.prizes .prizes-box > [class*="box-"] .buy-now:focus, .prizes .prizes-box > [class*="box-"] .buy-now:active {
+  outline: none;
+}
+
+.prizes .prizes-box > [class*="box-"]:hover .single-prize {
+  background-color: #ed135b;
 }
 
 /*# sourceMappingURL=style.css.map */
