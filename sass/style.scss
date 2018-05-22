@@ -202,4 +202,18 @@ body {
         }      
     }
 }
+/* quotes section finished*/
+
+/* prizes section */
+
+.prizes {
+    padding-top: 40px;
+    h1 {
+        @include text-heading;
+    }
+    p {
+        @include text-pharagraph;
+    }
+    
+}
 
