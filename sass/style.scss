@@ -17,8 +17,8 @@ body {
     padding-right: 17px;	    
 }
 
-/* navigation */
-.header {
+/*  HEADER: navigation and main section */
+header {
     height: 100vh;
 	background-image: url(../images/header_main/header_image.png);
 	background-position: center;
@@ -55,38 +55,40 @@ body {
                 }
             }
         }
-    }
-
-}
-
-/* nav finished */
-
-/* jumbotron */
-.main {
-    max-width: 951px;
-	text-align: center;		
-	margin: 0 auto;
-    margin-top: 15vh;
-    h1 {
-        font-family: $main-font, sans-serif;
-        font-size: 46px;
-        font-style: light;
-        font-weight: 100;
-        color:$white;
-        text-transform: uppercase;
-        span {
-            font-weight: bold;
+    } 
+    main {
+        max-width: 951px;
+        text-align: center;		
+        margin: 0 auto;
+        margin-top: 15vh;
+        h1 {
+            font-family: $main-font, sans-serif;
+            font-size: 46px;
+            font-style: light;
+            font-weight: 100;
+            color:$white;
+            text-transform: uppercase;
+            span {
+                font-weight: bold;
+            }
         }
-    }
-    p {
-        @include text-pharagraph-bigger;
-    }
-    button {
-        @include btn($pink, $white);
-    }
+        p {
+            @include text-pharagraph-bigger;
+        }
+        button {
+            @include btn($pink, $white);
+        }
+    }    
+
 }
 
-/* jumbotron finished */
+
+     
+
+    
+
+
+/* main section finished */
 
 /* about section*/
 .about {
@@ -263,7 +265,6 @@ body {
 /* prizes section finished */
 
 /* Additional info section */
-
 .additional-info {
     .box-icons{
         margin-top: 80px;
@@ -283,4 +284,14 @@ body {
     }
 
     
+}
+/* additional info finished */
+
+/* Join us section*/
+.join-us {
+    background-color: $pink;
+    h1 {
+        display: inline;
+
+    }
 }
