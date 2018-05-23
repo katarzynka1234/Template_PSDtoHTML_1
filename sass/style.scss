@@ -280,21 +280,30 @@ header {
 }
 /* additional info finished */
 
-/* Join us section*/
+/* join-us section */
 .join-us {
-    background-color: $pink;
-    .slogan h1 {
-        display: inline;
-        font-family: $main-font, sans-serif;
-        font-size: 38px;
-        font-style: light;
-        font-weight: 100;
-        line-height: 52px;
-        color: $white;
-        text-transform: uppercase;
-        span {
-            font-weight: bold;
+    background-color: $pink;   
+    .slogan {
+        @include flexbox(flex, row, space-between);
+        align-items: center;
+        height: 200px;
+        h1 {        
+            font-family: $main-font, sans-serif;
+            font-size: 38px;
+            font-style: light;
+            font-weight: 100;
+            line-height: 52px;
+            color: $white;
+            text-transform: uppercase;
+            margin: 0;
+            span {
+                font-weight: bold;
+            }
         }
-
+        button {
+            display: block;
+            @include btn($white, $pink);
+        } 
     }
 }
+/*join-us section finished */
