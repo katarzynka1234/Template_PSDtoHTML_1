@@ -80,15 +80,8 @@ header {
         }
     }    
 
-}
-
-
-     
-
-    
-
-
-/* main section finished */
+} 
+/* header finished */
 
 /* about section*/
 .about {
@@ -292,6 +285,16 @@ header {
     background-color: $pink;
     h1 {
         display: inline;
+        font-family: $main-font, sans-serif;
+        font-size: 38px;
+        font-style: light;
+        font-weight: 100;
+        line-height: 52px;
+        color:$white;
+        text-transform: uppercase;
+        span {
+            font-weight: bold;
+        }
 
     }
 }
