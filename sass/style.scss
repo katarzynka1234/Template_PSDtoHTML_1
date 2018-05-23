@@ -248,8 +248,7 @@ body {
             }
             >p {
                 @include text-pharagraph;
-                line-height: 0.8;
-                font-weight: 400;
+                line-height: 0.8;               
             }
             .buy-now {
                 @include btn($pink, $white);
@@ -266,14 +265,22 @@ body {
 /* Additional info section */
 
 .additional-info {
-    .box-icons {
-        @include flexbox(flex, row, center);
-        flex-wrap: wrap;
-        >.icon {
-            flex: 1;
-        }
-        >.text {
-            flex: 4;
+    .box-icons{
+        margin-top: 80px;
+        .text {
+            >h2{
+                @include btn-text($pink);
+                margin-top: 0;
+                line-height: 15px;
+            }
+            >p {
+                @include text-pharagraph;
+                padding-top: 0;
+                padding-bottom: 80px;
+                
+            }
         }
     }
+
+    
 }
