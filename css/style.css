@@ -196,7 +196,7 @@ header main button:focus, header main button:active {
 /* About section finished */
 /* services section */
 .services {
-  padding-top: 150px;
+  padding-top: 120px;
   text-align: center;
 }
 
@@ -295,7 +295,7 @@ header main button:focus, header main button:active {
 /* quotes section finished*/
 /* prizes section */
 .prizes {
-  padding-top: 150px;
+  padding-top: 120px;
   text-align: center;
   background-color: #f3f3f3;
 }
@@ -503,5 +503,91 @@ header main button:focus, header main button:active {
 }
 
 /*join-us section finished */
+/* news section */
+.news {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.news .news-text {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.news .news-text h1 {
+  color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 52px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.news .news-text p {
+  color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.35px;
+  padding-top: 20px;
+}
+
+.news .news-updates {
+  padding-top: 60px;
+}
+
+.news .news-updates .box-update {
+  background-color: #f3f3f3;
+  width: 360px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.news .news-updates .box-update h2 {
+  color: #5a5a5a;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.news .news-updates .box-update p {
+  color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.35px;
+  padding-top: 20px;
+  padding: 0 20px 20px 20px;
+  margin-bottom: 0;
+}
+
+.news button {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.38px;
+  border: none;
+  background-color: #fff;
+  color: #ed135b;
+  margin: 50px 0;
+}
+
+.news button:hover {
+  cursor: pointer;
+}
+
+.news button:focus, .news button:active {
+  outline: none;
+}
 
 /*# sourceMappingURL=style.css.map */

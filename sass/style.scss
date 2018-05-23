@@ -133,7 +133,7 @@ header {
 
 /* services section */
 .services {
-    padding-top: 150px;
+    padding-top: 120px;
     text-align: center;        
     .services-text{
         max-width: 680px;
@@ -202,7 +202,7 @@ header {
 /* prizes section */
 
 .prizes {
-    padding-top: 150px;
+    padding-top: 120px;
     text-align: center;
     background-color: $bg-light-gray;
     .prizes-text {
@@ -307,3 +307,44 @@ header {
     }
 }
 /*join-us section finished */
+
+/* news section */
+
+.news {
+    padding-top: 120px;
+    text-align: center;
+    .news-text {
+        max-width: 680px;
+        margin: 0 auto;
+        h1 {
+            @include text-heading;
+        }
+        p {
+            @include text-pharagraph;
+        }
+    }
+    .news-updates {
+        padding-top: 60px;
+        .box-update {
+            background-color: $bg-light-gray;
+            width: 360px;
+            text-align: left;
+            margin-top: 15px;
+            
+            h2 {
+                @include btn-text($font-gray);
+                padding-left: 20px;
+            }
+            p {
+                @include text-pharagraph;
+                padding: 0 20px 20px 20px;
+                margin-bottom: 0;
+            }
+        }
+            
+    }
+    button {
+        @include btn($white, $pink);
+        margin: 50px 0;
+    }
+}
