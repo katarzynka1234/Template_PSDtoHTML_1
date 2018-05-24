@@ -77,6 +77,7 @@ header {
         }
         button {
             @include btn($pink, $white);
+            margin-top: 40px;
         }
     }    
 
@@ -309,7 +310,6 @@ header {
 /*join-us section finished */
 
 /* news section */
-
 .news {
     padding-top: 120px;
     text-align: center;
@@ -327,8 +327,7 @@ header {
         padding-top: 60px;
         .box-update {
             background-color: $bg-light-gray;
-            width: 360px;
-            text-align: left;
+            width: 360px;            
             margin-top: 15px;
             position: relative;
             text-align: center;
@@ -352,17 +351,49 @@ header {
             h2 {
                 @include btn-text($font-gray);
                 padding-left: 20px;
+                text-align: left;
             }
             p {
                 @include text-pharagraph;
                 padding: 0 20px 20px 20px;
                 margin-bottom: 0;
+                text-align: left;
             }
-        }
-            
+        }            
     }
     button {
         @include btn($white, $pink);
         margin: 50px 0;
     }
 }
+/* news section finished*/
+
+/* additional-info-2 section */
+
+.additional-info-2 {
+    height: 650px;
+    background-image: url(../images/header_main/header_image.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    .box-text {        
+        max-width: 680px;
+        text-align: center;
+        margin: 0 auto;
+        h1 {
+            @include text-heading;
+            color: $white;
+        }
+        p {
+            @include text-pharagraph;
+            color: $white;
+        }
+        button {
+            @include btn($pink, $white);
+            margin-top: 40px;
+        }
+    }
+}
+/* additional-info-2 section finished */
+

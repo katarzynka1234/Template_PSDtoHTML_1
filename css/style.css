@@ -107,6 +107,7 @@ header main button {
   border: none;
   background-color: #ed135b;
   color: #fff;
+  margin-top: 40px;
 }
 
 header main button:hover {
@@ -151,7 +152,7 @@ header main button:focus, header main button:active {
   font-family: Lato, sans-serif;
   font-size: 15px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
   letter-spacing: 0.35px;
   padding-top: 20px;
 }
@@ -220,7 +221,7 @@ header main button:focus, header main button:active {
   font-family: Lato, sans-serif;
   font-size: 15px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
   letter-spacing: 0.35px;
   padding-top: 20px;
 }
@@ -320,7 +321,7 @@ header main button:focus, header main button:active {
   font-family: Lato, sans-serif;
   font-size: 15px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
   letter-spacing: 0.35px;
   padding-top: 20px;
 }
@@ -388,7 +389,7 @@ header main button:focus, header main button:active {
   font-family: Lato, sans-serif;
   font-size: 15px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
   letter-spacing: 0.35px;
   padding-top: 20px;
   line-height: 0.8;
@@ -443,7 +444,7 @@ header main button:focus, header main button:active {
   font-family: Lato, sans-serif;
   font-size: 15px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
   letter-spacing: 0.35px;
   padding-top: 20px;
   padding-top: 0;
@@ -529,7 +530,7 @@ header main button:focus, header main button:active {
   font-family: Lato, sans-serif;
   font-size: 15px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
   letter-spacing: 0.35px;
   padding-top: 20px;
 }
@@ -541,7 +542,6 @@ header main button:focus, header main button:active {
 .news .news-updates .box-update {
   background-color: #f3f3f3;
   width: 360px;
-  text-align: left;
   margin-top: 15px;
   position: relative;
   text-align: center;
@@ -575,6 +575,7 @@ header main button:focus, header main button:active {
   line-height: 30px;
   text-transform: uppercase;
   padding-left: 20px;
+  text-align: left;
 }
 
 .news .news-updates .box-update p {
@@ -582,11 +583,12 @@ header main button:focus, header main button:active {
   font-family: Lato, sans-serif;
   font-size: 15px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
   letter-spacing: 0.35px;
   padding-top: 20px;
   padding: 0 20px 20px 20px;
   margin-bottom: 0;
+  text-align: left;
 }
 
 .news button {
@@ -609,6 +611,68 @@ header main button:focus, header main button:active {
 }
 
 .news button:focus, .news button:active {
+  outline: none;
+}
+
+/* news section finished*/
+/* additional-info-2 section */
+.additional-info-2 {
+  height: 650px;
+  background-image: url(../images/header_main/header_image.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.additional-info-2 .box-text {
+  max-width: 680px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.additional-info-2 .box-text h1 {
+  color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 52px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.additional-info-2 .box-text p {
+  color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.35px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.additional-info-2 .box-text button {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.38px;
+  border: none;
+  background-color: #ed135b;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.additional-info-2 .box-text button:hover {
+  cursor: pointer;
+}
+
+.additional-info-2 .box-text button:focus, .additional-info-2 .box-text button:active {
   outline: none;
 }
 
