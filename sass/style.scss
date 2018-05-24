@@ -400,8 +400,24 @@ header {
 /* dawnload-now section */
 .dawnload-now {
     background-color: $bg-light-gray;
-    img {
-        margin-left: -220px;
+    .print-screen {
+        margin-left: -270px;
         margin-top: 80px;
     }
+    .text-box {
+        padding-left:20px;    
+        h1 {
+            @include text-heading;
+            margin-top: 150px;
+        }
+        p {
+            @include text-pharagraph;
+        }
+        button {
+            @include btn($pink, $white);
+            margin-top: 40px;
+        }
+    }
+       
+    
 }
