@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Lato, sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -122,22 +123,10 @@ header main button:focus, header main button:active {
 /* about section*/
 .about {
   background-color: #f3f3f3;
-  padding-top: 10vh;
+  padding-top: 120px;
 }
 
-.about .box1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  position: relative;
-  padding-bottom: 200px;
-}
-
-.about .box1 .box-text {
-  flex: 0.5;
-}
-
-.about .box1 .box-text h1 {
+.about .box-text h1 {
   color: #5a5a5a;
   font-family: Lato, sans-serif;
   font-size: 38px;
@@ -147,7 +136,7 @@ header main button:focus, header main button:active {
   margin-bottom: 10px;
 }
 
-.about .box1 .box-text p {
+.about .box-text p {
   color: #5a5a5a;
   font-family: Lato, sans-serif;
   font-size: 15px;
@@ -157,41 +146,33 @@ header main button:focus, header main button:active {
   padding-top: 20px;
 }
 
-.about .box1 .box-text .button-play {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin-top: 30px;
-}
-
-.about .box1 .box-text .button-play p {
-  color: #ed135b;
-  font-family: Lato;
-  font-size: 15px;
+.about .box-text button {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
   font-weight: 700;
-  line-height: 30px;
+  font-size: 15px;
+  font-family: Lato, sans-serif;
   text-transform: uppercase;
-}
-
-.about .box1 .box-text .button-play button {
-  width: 27px;
-  height: 27px;
-  border: 1px solid #ed135b;
-  border-radius: 50%;
-  background: none;
-  margin: 15px 10px;
+  letter-spacing: 0.38px;
+  border: none;
+  background-color: #f3f3f3;
   color: #ed135b;
+  text-align: left;
+  padding-left: 0;
 }
 
-.about .box1 .box-text .button-play button:hover {
+.about .box-text button:hover {
   cursor: pointer;
 }
 
+.about .box-text button:focus, .about .box-text button:active {
+  outline: none;
+}
+
 .about .mcbook-pic {
-  position: absolute;
-  bottom: -90px;
-  right: -500px;
-  overflow-x: hidden;
+  margin-right: -400px;
+  margin-bottom: -90px;
 }
 
 /* About section finished */

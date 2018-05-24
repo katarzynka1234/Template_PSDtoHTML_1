@@ -6,8 +6,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: $main-font, sans-serif;  
-
+    font-family: $main-font, sans-serif;
+    overflow-x:hidden;    
 }
 
 .container {
@@ -87,49 +87,25 @@ header {
 /* about section*/
 .about {
     background-color: $bg-light-gray;
-    padding-top: 10vh;
-    .box1 {
-        @include flexbox(flex, row, flex-start);
-        position: relative;	
-        padding-bottom: 200px;
-        .box-text {
-            flex: 0.5;
-            h1 {
-                @include text-heading;                
-            }
-            p {
-                @include text-pharagraph;
-            }
-            .button-play{
-                @include flexbox(flex, row, flex-start);
-                margin-top: 30px;         
-                p {               
-                    @include btn-text($pink);
-                }
-                button {
-                    width: 27px;
-                    height: 27px;
-                    border: 1px solid $pink;	
-                    border-radius: 50%;
-                    background: none;
-                    margin:15px 10px;
-                    color: $pink;
-                    &:hover {
-                        cursor: pointer;
-                    }
-                }
-            } 
+    padding-top: 120px;
+    .box-text {
+        h1 {
+            @include text-heading;
         }
-
+        p {
+            @include text-pharagraph;
+        }
+        button {
+            @include btn($bg-light-gray, $pink);
+            text-align: left;
+            padding-left: 0;            
+        }        
     }
     .mcbook-pic {
-        position: absolute;       
-        bottom: -90px;
-        right: -500px;	
-        overflow-x: hidden;
+        margin-right: -400px;
+        margin-bottom: -90px;
     }
 }
-
 /* About section finished */
 
 /* services section */
