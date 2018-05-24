@@ -661,6 +661,7 @@ header main button:focus, header main button:active {
 /* dawnload-now section */
 .dawnload-now {
   background-color: #f3f3f3;
+  padding-bottom: 80px;
 }
 
 .dawnload-now .print-screen {
@@ -714,6 +715,39 @@ header main button:focus, header main button:active {
 
 .dawnload-now .text-box button:focus, .dawnload-now .text-box button:active {
   outline: none;
+}
+
+/* dawnload-now section finished */
+/* FOOTER */
+footer {
+  background-color: #2b2b2b;
+}
+
+footer .footer-text {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-text .copy-right {
+  text-align: left;
+}
+
+footer .footer-text .copy-right span {
+  text-transform: none;
+}
+
+footer .footer-text .design {
+  text-align: right;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: Lato;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

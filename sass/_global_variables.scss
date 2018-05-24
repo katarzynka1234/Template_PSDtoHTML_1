@@ -12,6 +12,7 @@ $bg-dark-gray: #595959;
 $bg-footer: #2b2b2b;
 
 
+
 @mixin flexbox($display, $flex-direction, $justify-content) {
     display: $display;
     flex-direction: $flex-direction;

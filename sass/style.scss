@@ -376,6 +376,7 @@ header {
 /* dawnload-now section */
 .dawnload-now {
     background-color: $bg-light-gray;
+    padding-bottom: 80px;
     .print-screen {
         margin-left: -270px;
         margin-top: 80px;
@@ -398,14 +399,28 @@ header {
 /* dawnload-now section finished */
 
 /* FOOTER */
-footer {
-    margin-top: 80px;
-    background-color: $bg-dark-gray;
-    h3 {
-        @include btn-text($white);
-        text-align: left;
-        span {
-            color: $pink;            
+footer {      
+    background-color: $bg-footer;
+    .footer-text {
+        height: 150px;
+        @include flexbox(flex, row, space-between); 
+        align-items: center;
+        .copy-right {
+            text-align: left;
+            span {
+                text-transform: none;
+            }
+        }
+        .design {
+            text-align: right;
         }
     }
+    h3 {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-family: $main-font;
+        color: $white;
+    }
 }
+/* footer finisehd */
+
