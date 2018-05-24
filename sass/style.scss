@@ -51,6 +51,7 @@ header {
                     color: $white;
                     &:hover {
                         color: $pink;
+                        text-decoration:none;
                     }
                 }
             }
@@ -319,6 +320,7 @@ header {
                 span {
                     line-height: 250px;
                     font-size: 30px;
+                    color: $white;
                 }
             }
             &:hover .img-effect {

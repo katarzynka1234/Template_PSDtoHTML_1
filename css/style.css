@@ -64,6 +64,7 @@ header nav > ul > li > a {
 
 header nav > ul > li > a:hover {
   color: #ed135b;
+  text-decoration: none;
 }
 
 header main {
@@ -542,6 +543,7 @@ header main button:focus, header main button:active {
 .news .news-updates .box-update .img-effect span {
   line-height: 250px;
   font-size: 30px;
+  color: #fff;
 }
 
 .news .news-updates .box-update:hover .img-effect {
@@ -749,5 +751,7 @@ footer h3 {
   font-family: Lato;
   color: #fff;
 }
+
+/* footer finisehd */
 
 /*# sourceMappingURL=style.css.map */
