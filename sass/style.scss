@@ -397,3 +397,11 @@ header {
 }
 /* additional-info-2 section finished */
 
+/* dawnload-now section */
+.dawnload-now {
+    background-color: $bg-light-gray;
+    img {
+        margin-left: -220px;
+        margin-top: 80px;
+    }
+}
