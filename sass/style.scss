@@ -330,7 +330,25 @@ header {
             width: 360px;
             text-align: left;
             margin-top: 15px;
-            
+            position: relative;
+            text-align: center;
+            .img-effect {
+                width: 360px;
+                height: 250px;
+                z-index: 1;
+                position: absolute;
+                background-color: rgba($pink, 0.7);
+                transform:scale(0);
+                transition-duration: 300ms;
+                transform-origin: 50% 50%;
+                span {
+                    line-height: 250px;
+                    font-size: 30px;
+                }
+            }
+            &:hover .img-effect {
+                transform: scaleY(1);
+            }            
             h2 {
                 @include btn-text($font-gray);
                 padding-left: 20px;

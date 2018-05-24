@@ -543,6 +543,28 @@ header main button:focus, header main button:active {
   width: 360px;
   text-align: left;
   margin-top: 15px;
+  position: relative;
+  text-align: center;
+}
+
+.news .news-updates .box-update .img-effect {
+  width: 360px;
+  height: 250px;
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(237, 19, 91, 0.7);
+  transform: scale(0);
+  transition-duration: 300ms;
+  transform-origin: 50% 50%;
+}
+
+.news .news-updates .box-update .img-effect span {
+  line-height: 250px;
+  font-size: 30px;
+}
+
+.news .news-updates .box-update:hover .img-effect {
+  transform: scaleY(1);
 }
 
 .news .news-updates .box-update h2 {
