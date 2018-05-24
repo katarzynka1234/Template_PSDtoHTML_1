@@ -393,7 +393,19 @@ header {
             @include btn($pink, $white);
             margin-top: 40px;
         }
+    }        
+}
+/* dawnload-now section finished */
+
+/* FOOTER */
+footer {
+    margin-top: 80px;
+    background-color: $bg-dark-gray;
+    h3 {
+        @include btn-text($white);
+        text-align: left;
+        span {
+            color: $pink;            
+        }
     }
-       
-    
 }
