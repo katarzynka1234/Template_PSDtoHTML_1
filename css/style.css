@@ -18,6 +18,7 @@ body {
 header {
   height: 100vh;
   background-image: url(../images/header_main/header_image.png);
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
@@ -62,9 +63,10 @@ header nav > ul > li > a {
   color: #fff;
 }
 
-header nav > ul > li > a:hover {
+header nav > ul > li > a:hover, header nav > ul > li > a:focus {
   color: #ed135b;
   text-decoration: none;
+  outline: none;
 }
 
 header main {
@@ -217,6 +219,8 @@ header main button:focus, header main button:active {
 
 .services .icons-box > [class*="icon-"] {
   text-align: center;
+  transform: translateY(-80px);
+  transition: .3s ease-out;
 }
 
 .services .icons-box > [class*="icon-"] button {
@@ -234,6 +238,10 @@ header main button:focus, header main button:active {
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
+}
+
+.services .icons-box > [class*="icon-"].fadeInUp {
+  transform: translateY(0);
 }
 
 /* services section finished */
@@ -495,6 +503,7 @@ header main button:focus, header main button:active {
 .news .news-text {
   max-width: 680px;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 
 .news .news-text h1 {
@@ -515,10 +524,6 @@ header main button:focus, header main button:active {
   line-height: 30px;
   letter-spacing: 0.35px;
   padding-top: 20px;
-}
-
-.news .news-updates {
-  padding-top: 60px;
 }
 
 .news .news-updates .box-update {
@@ -574,6 +579,10 @@ header main button:focus, header main button:active {
   text-align: left;
 }
 
+.news .more-updates {
+  display: none;
+}
+
 .news button {
   width: 200px;
   height: 50px;
@@ -602,6 +611,7 @@ header main button:focus, header main button:active {
 .additional-info-2 {
   height: 650px;
   background-image: url(../images/header_main/header_image.png);
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   display: flex;

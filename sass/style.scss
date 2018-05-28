@@ -20,7 +20,8 @@ body {
 /*  HEADER: navigation and main section */
 header {
     height: 100vh;
-	background-image: url(../images/header_main/header_image.png);
+    background-image: url(../images/header_main/header_image.png);
+    background-attachment: fixed;
 	background-position: center;
     background-size: cover;
     nav {
@@ -49,9 +50,11 @@ header {
 	                letter-spacing: 0.4px;
 	                text-decoration: none;
                     color: $white;
-                    &:hover {
+                    &:hover,                    
+                    &:focus {
                         color: $pink;
                         text-decoration:none;
+                        outline: none;
                     }
                 }
             }
@@ -128,6 +131,8 @@ header {
         margin: 100px 0;
         > [class*="icon-"] {
             text-align: center;
+            transform: translateY(-80px);
+            transition: .3s ease-out;           
             button {
                 width: 131px;
                 height: 131px;
@@ -137,7 +142,10 @@ header {
             }
             h2 {
                 @include btn-text($pink);
-            }
+            }            
+        }
+        > [class*="icon-"].fadeInUp {
+            transform: translateY(0);
         }
     }
 
@@ -293,6 +301,7 @@ header {
     .news-text {
         max-width: 680px;
         margin: 0 auto;
+        padding-bottom: 60px;
         h1 {
             @include text-heading;
         }
@@ -300,8 +309,7 @@ header {
             @include text-pharagraph;
         }
     }
-    .news-updates {
-        padding-top: 60px;
+    .news-updates {        
         .box-update {
             background-color: $bg-light-gray;
             width: 360px;            
@@ -339,6 +347,9 @@ header {
             }
         }            
     }
+    .more-updates {
+        display: none;
+    }
     button {
         @include btn($white, $pink);
         margin: 50px 0;
@@ -351,6 +362,7 @@ header {
 .additional-info-2 {
     height: 650px;
     background-image: url(../images/header_main/header_image.png);
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     display: flex;

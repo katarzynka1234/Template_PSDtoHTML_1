@@ -7,6 +7,7 @@
 	<title>PSD to HTML</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.min.css">
 </head>
 
 <body>
@@ -70,7 +71,7 @@
 		</div>
 	</section>
 
-	<section class="services">
+	<section  class="services">
 		<div class="container">
 			<div class="services-text">
 				<h1>Our Services</h1>
@@ -78,26 +79,26 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 					aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 			</div>
-			<div class="icons-box">
-				<div class="icon-1">
+			<div id="icons-box" class="icons-box">
+				<div id="icon" class="icon-1">
 					<button>
 						<img src="images/our_services/editable.png" alt="">
 					</button>
 					<h2>Fully editable</h2>
 				</div>
-				<div class="icon-2">
+				<div id="icon" class="icon-2">
 					<button>
 						<img src="images/our_services/free_dawnload.png" alt="">
 					</button>
 					<h2>Free dawnload</h2>
 				</div>
-				<div class="icon-3">
+				<div id="icon" class="icon-3">
 					<button>
 						<img src="images/our_services/modern_design.png" alt="">
 					</button>
 					<h2>Modern designe</h2>
 				</div>
-				<div class="icon-4">
+				<div id="icon" class="icon-4">
 					<button>
 						<img src="images/our_services/responsive.png" alt="">
 					</button>
@@ -369,12 +370,81 @@
 					</div>
 				</div>
 			</div>
-			<button>show more
+			<!-- HIDDEN - for Show more -->
+			<div class="row news-updates more-updates">
+				<div class="col-md-4 col-sm-6">
+					<div class="box-update">
+						<div class="img-effect">
+							<span class="glyphicon glyphicon-search"></span>
+						</div>
+						<img src="images/News/Czarno-biały 1.png">
+						<h2>Lorem impsuma dolor sit</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="box-update">
+						<div class="img-effect">
+							<span class="glyphicon glyphicon-search"></span>
+						</div>
+						<img src="images/News/Czarno-biały 2.png">
+						<h2>Lorem impsuma dolor sit</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="box-update">
+						<div class="img-effect">
+							<span class="glyphicon glyphicon-search"></span>
+						</div>
+						<img src="images/News/Czarno-biały 3.png">
+						<h2>Lorem impsuma dolor sit</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="box-update">
+						<div class="img-effect">
+							<span class="glyphicon glyphicon-search"></span>
+						</div>
+						<img src="images/News/Czarno-biały 4.png">
+						<h2>Lorem impsuma dolor sit</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="box-update">
+						<div class="img-effect">
+							<span class="glyphicon glyphicon-search"></span>
+						</div>
+						<img src="images/News/Czarno-biały 5.png">
+						<h2>Lorem impsuma dolor sit</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="box-update">
+						<div class="img-effect">
+							<span class="glyphicon glyphicon-search"></span>
+						</div>
+						<img src="images/News/Czarno-biały 6.png">
+						<h2>Lorem impsuma dolor sit</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a.</p>
+					</div>
+				</div>
+			</div>
+			<button id="show-more" >Show more
 				<br>
 				<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
 			</button>
+			<button id="hide-more" >
+				<span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+				<br> Hide more
+			</button>
 		</div>
 	</section>
+
+
 
 	<section class="additional-info-2">
 		<div class="box-text">
@@ -419,15 +489,17 @@
 				<div class="design">
 					<h3>Designed by Symu.co</h3>
 				</div>
-		</div>
+			</div>
 		</div>
 	</footer>
 
 
 
 	<!-- SCRIPTS-->
-	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>	
 	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+	<script src="js/script.js"></script>
 
 </body>
 
