@@ -25,22 +25,26 @@ header {
 	background-position: center;
     background-size: cover;
     nav {
-        @include flexbox(flex, row, space-between);       
+        @include flexbox(flex, row, space-between);
+        align-items: center;
+        height: 100px;       
         .logo {
             font-size: 19px;
 	        color: $white;
-	        font-weight: 900;
-	        margin-top: 20px;
+	        font-weight: 900;	        
             letter-spacing: 0.4px;
-            span {
-                color: $pink;
-            }	
+            p {
+                margin: 0;
+                span {
+                    color: $pink;
+                }
+            }
+            	
         }
         >ul {
             @include flexbox(flex, row, flex-end);            
-	        list-style: none;	       
-	        margin-top: 40px;
-            margin-bottom: 0;
+            list-style: none; 
+            margin-top: 14px;    
             >li {
             	padding: 0 10px;
                 padding-bottom: 0;
@@ -437,4 +441,25 @@ footer {
     }
 }
 /* footer finisehd */
+
+button.back-to-top {
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: $white;
+    height:35px;
+    width: 35px;
+    border-radius: 17.5px;
+    border: none;
+    outline: none;    
+    a {
+        text-decoration: none;
+        color: $pink;
+        font-size: 16px;
+        &:hover { 
+            color: $pink;
+        }
+    }
+}
 
