@@ -15,7 +15,7 @@ Used method:
 
 > jQuery : plugin MagicScroll
 
-> JavaScript + CSS: own buton effect "Show More"
+> JavaScript: click effect "Show More"
 
 
 
