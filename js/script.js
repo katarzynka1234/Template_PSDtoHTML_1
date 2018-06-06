@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 
+   // === SERVICES SECTION - iconS animation ===//
     // *** SCROLL MAGIC plugin ***//
     //Init ScrollMagic
     var controller = new ScrollMagic.Controller();
@@ -13,8 +14,8 @@ $(document).ready(function(){
     .addTo(controller);
 
 
-    // ** NEWS UPDATES SECTION //
-    // - opreation with button Show more news and Hide more news" ***//
+    // === NEWS UPDATES SECTION === //
+    // - opreation with button showMore news and hideMore news//
     var btnShowNews = $('#show-more');
     var btnHideNews = $('#hide-more');
     var moreNews = $('.more-updates');
@@ -36,10 +37,4 @@ $(document).ready(function(){
     });
 
 
-
-
-    // scroll effect - don't work :( //
-    // $('.services').on('scroll', function(){
-    //      $('#services-icons-box').addClass('animated fadeInUp')
-    // });
 })
