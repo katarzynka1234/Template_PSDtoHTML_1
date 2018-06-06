@@ -2,8 +2,9 @@
 
 https://katarzynka1234.github.io/Template_PSDtoHTML_1/.
 
-Thi sproject is cliced PSD to HTML.
+This sproject is sliced PSD to HTML.
 To slice file I used free online Photopea.
+PSD file is in images folder.
 
 Used method:
 > Sass
