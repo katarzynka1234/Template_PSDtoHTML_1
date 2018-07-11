@@ -464,5 +464,127 @@ button.back-to-top {
     }
 }
 
-/*  The end */
+/* === RWD === */
 
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 750px;
+        nav {
+            flex-direction: column;
+            height: auto;
+            text-align: center;;
+            ul {
+                padding-left: 0;
+                flex-direction: column;
+
+            }
+        }
+        main {
+            margin-top: 0; 
+        }        
+    }
+    .about {
+        padding-top: 20px;   
+        .mcbook-pic {
+            width: 90vw;
+            height: auto;
+            margin: 0 auto;
+        }    
+    }
+    .services {
+        padding-top: 20px;
+        .icons-box {
+            flex-direction: column;
+        }
+    }
+    .quotes {
+        .carousel {      
+            .carousel-inner>.item {
+                .carousel-caption {                
+                    p {
+                       font-size: 16px;
+                       letter-spacing: normal;
+                       
+                    }
+                    span {               
+                        font-size: 100px;
+                    }
+                }
+            }      
+        }
+    }    
+    .prizes {
+        padding-top: 20px; 
+        .prizes-box {
+            flex-direction: column;        
+            padding-top: 10px;
+            padding-bottom: 10px;
+            >[class*="box-"] {
+                margin: 10px auto;          
+            }
+        }
+    } 
+    .additional-info {
+        .box-icons {
+            div.icon {
+                >img {
+                    float: right;
+                }
+            }
+            .text {
+                padding-right: 10vw;
+            }
+        }
+    }
+    .join-us {
+        .slogan {
+            flex-direction: column;
+            text-align: center;
+            h1{
+                font-size: 25px;
+                line-height: 30px;
+            }
+        }
+    } 
+    .news {
+        padding-top: 20px;
+        .news-updates{
+            .box-update {
+                margin: 15px auto;
+            }
+        }
+    }
+    .additional-info-2 {
+        padding: 0 15px;
+    }
+    .dawnload-now {
+        .print-screen {
+            display: none;
+        }
+        .text-box {
+            h1 {
+                margin-top: 20px;
+            }
+        }
+    }
+    footer {
+        .footer-text {            
+            flex-direction: column;
+            height: auto;
+            .copy-right {
+                text-align: center;
+                font-size: small;
+            }
+
+        }
+    }
+
+}
+
+
+
+/*  The end */
