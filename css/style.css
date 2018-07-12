@@ -323,15 +323,18 @@ header main button:focus, header main button:active {
 .prizes .prizes-box {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
 .prizes .prizes-box > [class*="box-"] {
+  margin-top: 15px;
   width: 262px;
   height: 466px;
   background-color: #fff;
+  box-shadow: 0px 0px 19px -1px rgba(0, 0, 0, 0.75);
 }
 
 .prizes .prizes-box > [class*="box-"] .single-prize {
@@ -533,9 +536,10 @@ header main button:focus, header main button:active {
 .news .news-updates .box-update {
   background-color: #f3f3f3;
   width: 360px;
-  margin-top: 15px;
+  margin: 15px auto;
   position: relative;
   text-align: center;
+  box-shadow: 0px 0px 19px -1px rgba(0, 0, 0, 0.75);
 }
 
 .news .news-updates .box-update .img-effect {

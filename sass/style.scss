@@ -206,13 +206,16 @@ header {
         }
     }
     .prizes-box {
-        @include flexbox(flex, row, space-between);
+        @include flexbox(flex, row, space-around);
+        flex-wrap: wrap;
         padding-top: 80px;
         padding-bottom: 80px;
         >[class*="box-"] {
+            margin-top: 15px;
             width: 262px;
             height: 466px;
             background-color: $white;
+            box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.75);
             .single-prize {
                 margin: 0;
                 height: 150px;
@@ -317,9 +320,10 @@ header {
         .box-update {
             background-color: $bg-light-gray;
             width: 360px;            
-            margin-top: 15px;
+            margin: 15px auto;
             position: relative;
             text-align: center;
+            box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.75);
             .img-effect {
                 width: 360px;
                 height: 250px;
