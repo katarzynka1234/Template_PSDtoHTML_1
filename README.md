@@ -20,6 +20,7 @@ Used web technologies:
 > plugin: MagicScroll, Animate.css 
 
 Source file: 
+![](https://github.com/katarzynka1234/Template_PSDtoHTML_1/blob/master/images/source/project-02-FE-dodatkowe-zadanie-m3v2.png)
 
 
 
