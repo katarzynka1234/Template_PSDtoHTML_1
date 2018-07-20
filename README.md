@@ -2,20 +2,27 @@
 
 https://katarzynka1234.github.io/Template_PSDtoHTML_1/.
 
-This sproject is sliced PSD to HTML.
+This project is tepmate sliced from PSD to HTML.
 
 To slice file I used free online Photopea.
 
-PSD file is in images folder.
+Used web technologies:
+> HTML 
 
-Used method:
+> CSS3
+
 > Sass
 
 > Bootstrap 3
 
-> jQuery : plugin MagicScroll
+> jQuery 
 
-> JavaScript: click effect "Show More"
+> plugin: MagicScroll, Animate.css 
+
+Source file: 
+
+
+
 
 
 
