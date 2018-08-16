@@ -24,14 +24,10 @@ header {
 }
 
 header nav {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-align: center;
-      align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
 }
 
@@ -51,12 +47,9 @@ header nav .logo p span {
 }
 
 header nav > ul {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
   list-style: none;
   margin-top: 14px;
 }
@@ -137,7 +130,28 @@ header main button:focus, header main button:active {
 /* about section*/
 .about {
   background-color: #f3f3f3;
-  padding-top: 120px;
+}
+
+.about .separator {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.about .separator::before, .about .separator::after {
+  content: "";
+  position: absolute;
+}
+
+.about .separator::before {
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ed145b;
+  transform-origin: 100% 100%;
+  transform: rotate(-1deg);
 }
 
 .about .box-text h1 {
@@ -222,12 +236,9 @@ header main button:focus, header main button:active {
 }
 
 .services .icons-box {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
   margin: 100px 0;
 }
 
@@ -331,14 +342,10 @@ header main button:focus, header main button:active {
 }
 
 .prizes .prizes-box {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -469,14 +476,10 @@ header main button:focus, header main button:active {
 }
 
 .join-us .slogan {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-align: center;
-      align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 200px;
 }
 
@@ -640,10 +643,8 @@ header main button:focus, header main button:active {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .additional-info-2 .box-text {
@@ -765,14 +766,10 @@ footer {
 
 footer .footer-text {
   height: 150px;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-align: center;
-      align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer .footer-text .copy-right {
@@ -825,21 +822,16 @@ button.back-to-top a:hover {
     height: 750px;
   }
   header nav {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
     height: auto;
     text-align: center;
   }
   header nav ul {
     padding-left: 0;
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
   }
   header main {
     margin-top: 0;
-  }
-  .about {
-    padding-top: 20px;
   }
   .about .mcbook-pic {
     width: 90vw;
@@ -850,8 +842,7 @@ button.back-to-top a:hover {
     padding-top: 20px;
   }
   .services .icons-box {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
   }
   .quotes .carousel .carousel-inner > .item .carousel-caption {
     bottom: 50px;
@@ -868,8 +859,7 @@ button.back-to-top a:hover {
     padding-top: 20px;
   }
   .prizes .prizes-box {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -883,8 +873,7 @@ button.back-to-top a:hover {
     padding-right: 10vw;
   }
   .join-us .slogan {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
     text-align: center;
   }
   .join-us .slogan h1 {
@@ -919,8 +908,7 @@ button.back-to-top a:hover {
     margin-top: 20px;
   }
   footer .footer-text {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
     height: auto;
   }
   footer .footer-text .copy-right {
@@ -930,4 +918,5 @@ button.back-to-top a:hover {
 }
 
 /*  The end */
+
 /*# sourceMappingURL=style.css.map */
