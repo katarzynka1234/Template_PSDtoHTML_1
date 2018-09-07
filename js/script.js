@@ -9,8 +9,8 @@ $(document).ready(function(){
     var ourScene = new ScrollMagic.Scene({
         triggerElement: '#icons-box'
     })
-    .setClassToggle('#icon', 'animated')
-    .setClassToggle('#icon', 'fadeInUp')
+    .setClassToggle('.icon', 'animated')
+    .setClassToggle('.icon', 'fadeInUp')
     .addTo(controller);
 
 
